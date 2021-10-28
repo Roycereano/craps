@@ -19,7 +19,7 @@ public class Tally {
 
   public double getPercentage() {
     int plays = getPlays();
-    return (plays > 0) ? wins / plays : 0;
+    return (plays > 0) ? (double) wins / plays : 0;
   }
 
   public int getWins() {
